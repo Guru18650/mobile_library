@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biblioteczka_Mobile.Statistics"
+             BackgroundColor="{StaticResource Background}">
+    <ContentPage.Content>
+        <StackLayout Margin="16">
+            <Label Text="Library Statistics"
+               TextColor="#FFFFFF"
+               FontSize="24"
+               HorizontalTextAlignment="Center"
+               Margin="0, 12, 0, 16" />
+            <Frame BorderColor="{StaticResource Primary}"
+               CornerRadius="10"
+               HasShadow="True"
+               BackgroundColor="{StaticResource Background}">
+                <StackLayout>
+                    <Grid Padding="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Total books"
+               Grid.Row="0"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="totalBooks"
+               Grid.Row="0"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Total pages"
+               Grid.Row="1"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="totalPages"
+               Grid.Row="1"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Unique authors"
+               Grid.Row="2"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="uniqueAuthors"
+               Grid.Row="2"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Unique publishers"
+               Grid.Row="3"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="uniquePublishers"
+               Grid.Row="3"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Best publisher"
+               Grid.Row="4"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="bestPublisher"
+               Grid.Row="4"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Best Author"
+               Grid.Row="5"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="bestAuthor"
+               Grid.Row="5"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="English count"
+               Grid.Row="6"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="englishCount"
+               Grid.Row="6"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                        <Label Text="Polish count"
+               Grid.Row="7"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                        <Label x:Name="polishCount"
+               Grid.Row="7"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

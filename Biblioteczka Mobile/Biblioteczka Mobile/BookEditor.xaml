@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biblioteczka_Mobile.BookEditor"
+             BackgroundColor="#1C1C1E">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="16">
+            <Label Text="Add a Book"
+               TextColor="#FFFFFF"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               Margin="0, 10, 0, 10"/>
+            <Frame BorderColor="{StaticResource Primary}"
+               CornerRadius="10"
+               HasShadow="True"
+               BackgroundColor="{StaticResource Background}">
+                <StackLayout>
+                        <Entry Placeholder="ISBN"
+                               Keyboard="Numeric"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16"
+                               x:Name="ISBNEntry"/>
+
+                        <Entry Placeholder="Title"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16" 
+                               x:Name="TitleEntry"/>
+             
+                    <Entry Placeholder="Author"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16" 
+                           x:Name="AuthorEntry"/>
+
+                    <Entry Placeholder="Length"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16"
+                           Keyboard="Numeric"
+                           x:Name="LengthEntry"/>
+                    
+                        <Entry Placeholder="Publisher"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16" 
+                               x:Name="PublisherEntry"/>
+                    
+                    <Entry Placeholder="Publication Year"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="18"
+                       BackgroundColor="{StaticResource TextboxBackground}"
+                       Margin="0, 0, 0, 16" 
+                           Keyboard="Numeric"
+                           x:Name="YearEntry"/>
+                    
+                    <Picker Title="Language"
+                            x:Name="LangPicker"
+                        TextColor="{StaticResource TextPrimary}"
+                        FontSize="18"
+                        BackgroundColor="{StaticResource TextboxBackground}"
+                        Margin="0, 0, 0, 16">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>English</x:String>
+                                <x:String>Polish</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Picker Title="Physical Format"
+                            x:Name="FormatPicker"
+                        TextColor="{StaticResource TextPrimary}"
+                        FontSize="18"
+                        BackgroundColor="{StaticResource TextboxBackground}"
+                        Margin="0, 0, 0, 16">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Hardcover</x:String>
+                                <x:String>Paperback</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                        <Button BackgroundColor="{StaticResource Primary}" Text="Add" CornerRadius="5" Pressed="Button_Pressed"></Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

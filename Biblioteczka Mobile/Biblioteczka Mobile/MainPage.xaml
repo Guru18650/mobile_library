@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biblioteczka_Mobile.MainPage"
+             Title="Biblioteczka Mobile"
+             BackgroundColor="#1C1C1E"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Margin="16">
+        <Label Text="Welcome to Mobile Library"
+               TextColor="#FFFFFF"
+               FontSize="24"
+               HorizontalTextAlignment="Center"
+               Margin="0, 32, 0, 16" />
+        <Frame BorderColor="{StaticResource Primary}"
+               CornerRadius="10"
+               HasShadow="True"
+               BackgroundColor="{StaticResource Background}">
+            <StackLayout>
+                <Button Text="Search"
+                TextColor="#FFFFFF"
+                FontSize="18"
+                BackgroundColor="{StaticResource Primary}"
+                CornerRadius="8"
+                Pressed="Search_Pressed"
+                Margin="0, 0, 0, 8" />
+                <Button Text="ISBN Scan"
+                TextColor="#FFFFFF"
+                FontSize="18"
+                BackgroundColor="{StaticResource Primary}"
+                CornerRadius="8"
+                Pressed="ISBN_Pressed"
+                Margin="0, 0, 0, 8" />
+                <Button Text="Add Book"
+                TextColor="#FFFFFF"
+                FontSize="18"
+                BackgroundColor="{StaticResource Primary}"
+                CornerRadius="8"
+                Pressed="Add_Pressed"
+                Margin="0, 0, 0, 8" />
+                <Button Text="Statistics"
+                TextColor="#FFFFFF"
+                FontSize="18"
+                BackgroundColor="{StaticResource Primary}"
+                CornerRadius="8"
+                Pressed="Statistics_Pressed"
+                Margin="0, 0, 0, 8" />
+                <Button Text="Quit"
+                TextColor="#FFFFFF"
+                FontSize="18"
+                BackgroundColor="{StaticResource Primary}"
+                CornerRadius="8" 
+                Pressed="Quit_Pressed"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

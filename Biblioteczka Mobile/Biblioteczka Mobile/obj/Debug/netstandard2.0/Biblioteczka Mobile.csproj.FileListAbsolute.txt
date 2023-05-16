@@ -1,0 +1,20 @@
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.AssemblyInfo.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.dll
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\refint\Biblioteczka Mobile.dll
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Biblioteczka Mobile.pdb
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\bin\Debug\netstandard2.0\Biblioteczka Mobile.deps.json
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\bin\Debug\netstandard2.0\Biblioteczka Mobile.dll
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\bin\Debug\netstandard2.0\Biblioteczka Mobile.pdb
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\ref\Biblioteczka Mobile.dll
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\SearchPage.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\BookDetailsPage.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\ISBNSearch.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\BookEditor.xaml.g.cs
+C:\Users\micha\source\repos\Biblioteczka Mobile\Biblioteczka Mobile\Biblioteczka Mobile\obj\Debug\netstandard2.0\Statistics.xaml.g.cs

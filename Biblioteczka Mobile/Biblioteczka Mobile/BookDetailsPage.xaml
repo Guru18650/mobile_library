@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Biblioteczka_Mobile.BookDetailsPage"
+             BackgroundColor="#1C1C1E">
+        <StackLayout>
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0,4*"/>
+                    <ColumnDefinition Width="0,6*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="bookCoverImage"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"
+               Aspect="AspectFit"
+               HeightRequest="275"
+               Margin="0,0,0,0"/>
+
+
+
+                <Label x:Name="titleLabel"
+                       Grid.ColumnSpan="2"
+                       HorizontalOptions="Center"
+               Grid.Row="2"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Author"
+               Grid.Row="3"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="authorLabel"
+               Grid.Row="3"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Publisher"
+               Grid.Row="4"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="publisherLabel"
+               Grid.Row="4"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Language"
+               Grid.Row="5"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="languageLabel"
+               Grid.Row="5"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Length"
+               Grid.Row="6"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="lengthLabel"
+               Grid.Row="6"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Publish Date"
+               Grid.Row="7"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="publishDateLabel"
+               Grid.Row="7"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label Text="Physical Format"
+               Grid.Row="8"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+                <Label x:Name="physicalFormatLabel"
+               Grid.Row="8"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+            <Label Text="Database Status"
+               Grid.Row="9"
+               Grid.Column="0"
+               TextColor="White"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+
+            <Label x:Name="DBStat"
+               Grid.Row="9"
+               Grid.Column="1"
+               TextColor="#707070"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               Margin="0,0,0,5"/>
+        </Grid>
+
+            <Button BackgroundColor="{StaticResource Primary}" x:Name="editButton" Pressed="editButton_Pressed" Text="Edit"></Button>
+        </StackLayout>
+</ContentPage>
